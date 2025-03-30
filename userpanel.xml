@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+     <ImageButton
+         android:id="@+id/formviewd"
+         android:layout_width="226dp"
+         android:layout_height="54dp"
+         android:backgroundTint="#E7F0FF"
+         android:src="@drawable/viewappointments"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <ImageButton
+         android:id="@+id/formaddreminder"
+         android:layout_width="236dp"
+         android:layout_height="59dp"
+         android:backgroundTint="#FFFFFF"
+         android:src="@drawable/addreminderbtn"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.514"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.718" />
+
+     <ImageButton
+         android:id="@+id/formreg"
+         android:layout_width="234dp"
+         android:layout_height="63dp"
+         android:backgroundTint="#E7F0FF"
+         android:src="@drawable/regbtn"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.497"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.269" />
+
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="170dp"
+         android:layout_height="39dp"
+         android:text="Select Operation"
+         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.497"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.095" />
+
+     <ImageButton
+         android:id="@+id/userlogoutbtn"
+         android:layout_width="55dp"
+         android:layout_height="55dp"
+         android:backgroundTint="#0091EA"
+         android:src="@drawable/baseline_logout_24"
+         android:tint="#DB6565"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.952"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.023" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
